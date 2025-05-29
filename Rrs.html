@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <script type="text/javascript" src="validate.js"></script>
+        <title>Welcome to Indian Railway Passenger Reservation Enquiry</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="Image/x-icon" href="rrsfavicon.com.avif">
+    </head>
+    <body>
+        <div class="wrapper">
+            
+        <div class="container">
+        <form action="#" name="RailwayReservationSystem"
+        
+        onsubmit="return(validate());">
+    <table cellpadding="2" width="50%" 
+align="center" cellspacing="10">
+
+<tr>
+<td colspan="2">
+                <h1>RailwayReservationSystem</h1>
+                <h3>Made by Ankit</h3>
+                <!-- <center><font size="4"><b>RailwayReservationSystem</b></font></center> -->
+                <!-- <center><font size="1"><b>Made by Ankit</b></font></center> -->
+</td> 
+</tr>
+<tr>
+    <td>From</td>
+    <td><input type="text" name="from" id="from" size="30"> </td>
+</tr>
+<tr>
+    <td>To</td>
+    <td><input type="text" name="to" id="to" size="30"></td>
+</tr>
+<tr>
+    <td>TrainNo</td>
+    <td><input type="text" name="trainNo"
+        id="trainno" size="30"></td>
+</tr>
+<tr>
+    <td>Class</td>
+<td><select name="Class">
+    <option value="-1" selected>select</option>
+    <option value="SL">SL</option> 
+    <option value="3A">3A</option>
+    <option value="2A">2A</option>
+    <option value="1A">1A</option>
+</select></td>
+</tr>
+<tr>
+    <td>No.of seats</td>
+    <td><select name="No.of seats">
+        <option value="-1" selected>select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select></td>
+
+<tr>
+<div class="passenger-row">
+    <div class="field name">
+        <td><label>Passenger Name</label></td>
+    </div>
+    <div class="field age">
+        <td><label>Age</label></td>
+    </div>
+    <div class="field gender">
+        <td><label>Gender</label></td>
+    </div>
+</div>
+</tr>
+
+<td><input type="text" name="P1" size="30"></td>
+<td><input type="text" name="age" size="2"></td>
+<td><select name="gender">
+    <option value="M">M</option>
+    <option value="F">F</option></select>
+</td></tr>
+<tr> 
+    
+    <td><input type="text" name="P2" size="30"></td>
+    <td><input type="text" name="age" size="2"></td>
+    <td><select name="gender">
+        <option value="M">M</option>
+        <option value="F">F</option></select>
+    </td></tr>
+    <tr>
+    <td><input type="text" name="P3" size="30"></td>
+    <td><input type="text" name="age" size="2"></td>
+    <td><select name="gender">
+        <option value="M">M</option>
+        <option value="F">F</option></select>
+    </td></tr>
+    <tr>
+        <td>Address</td>
+        <td><input type="text" name="address" id="address" size="55"></td> 
+    </tr>
+    </tr>
+</tr>
+<tr>
+    <td>Payment Mode</td>
+    <td><input type="radio" name="Paymentmode" value="Credit/Debit Card">Credit/Debit Card</td>
+    <td><input id="wallet" type="radio" name="Paymentmode" value="Wallet/UPI">Wallet/UPI</td>
+    <td><input type="radio" name="Paymentmode" value="Netbanking">Netbanking</td>
+</tr>
+<tr>
+    <td>Mobile No.</td>
+    <td><input type="text" name="Mobileno" id="mobileno" size="30"></td>
+</tr>
+<tr>
+    <td><input type="reset"></td>
+    <td colspan="2"><input type="submit" value="Submit Form"></td>
+    <td>
+        <input type="Cancel" value="Cancel">
+    </td>
+</tr>
+</table>
+
+</form>
+</div>
+
+</div>
+</body>
+</html>
